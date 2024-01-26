@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".English_Grammar_Alternative"
+    android:background="@color/main_bg_color"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="17dp"
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary_color"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="Choose the best Alternative -"
+                android:layout_marginBottom="5dp"
+                android:justificationMode="inter_word"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="01. FEATHERS : PLUCK ::"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="a) goose : duck b) garment : weave c) car : drive d) wool : shear (কাচি দিয়ে লোম ছাটা)"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="02. Setting : stone ::"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="a) pen : paper b) glass : window c) socket : bulb d) ring : finger"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="03. Music : Guitar ::"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="a) stamping (সজোরে পদাঘাত করা) : noise b) water : ocean c) windows : house d) words : typewriter"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="04. Oxygen : Respiration ::"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="a) improvement : care b) camera : photography c) sunlight : photosynthesis d) drama : acting"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="05. Stove : Kitchen ::"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="a) window : bedroom b) sink : bathroom c) television : living room d) trunk : attic (চিলেকোঠা)"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="06. Wealth : Luxuries ::"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="a) enemies : friends b) sandwich : bread c) ticket : admission d) crying : sympathy"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="07. Angle : Degree ::"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="a) letter : alphabet b) milk : quart c) area : square inch d) time : minutes"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="08) Ship : Harbor (পোতাশ্রয়) ::"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="a) flower : garden b) village : people c) nest : bird d) car : garage"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="09. Lend : Borrow ::"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="a) dictate : govern b) award : deserve c) dictate : govern d) seed : plant"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="10. Chair : Bench ::"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="a) street : sidewalk b) rule : yardstick c) wood : steel d) pig : elephant"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="11. Smoke: Pollution ::"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="a) water : river b) war : death c) vaccination : decay d) iron : strength"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="12. Request : Refusal ::"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="a) eating : obesity b) deny : affirmation c) try : failure d) swim : sinking"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="13. Confidence : Deception (প্রতারনা / ছল) ::"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="a) hostility : kindliness b) deny : affirmation c) dissent (ভিন্ন মত প্রকাশ/ভিন্নমতাবলম্বন ) : commotion (হৈচৈ/ উত্তেজনা/ উত্তেজনার ঘটনা)d) blanket : heat"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="14. Gazelle : Swift ::"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="a) horse : slow b) wolf : sly c) swan : graceful (সহজ/মাধুর্যময়/সাবলীল) d) elephant : gray"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="15. Affirm (দৃঢতার সাথে ঘোষনা করা) : Hint ::"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="a) say : deny b) assert : convince c) confirm : reject d) charge : insinuate (ধীরে ধীরে সুকৌশলে প্রবেশ করা / ধীরে ধীরে সুকৌশলে কারো অনুগ্রহভাজন হওয়া )"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="16. Triangle : Pyramid ::"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="a) cone : circle b) corner : angle c) tube : cylinder d) square : box"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="17. Hand : Nail ::"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="a) paw: claw b) foot : toe c) head : hair d) ear : nose"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="18. Germ : Disease ::"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="a) trichinosis : pork b) men : woman c) doctor : medicine d) war : destruction"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="19. Girl : woman ::"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="a) student : teacher b) adult : child c) black : white d) infant : child (infant – শিশু)"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="20. Thirst : Parch (পুড়িয়ে শুকিয়ে ফেলা)::"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="a) fever : flush আকস্মিক আবেগ / উত্তেজনা b) water : sink c) hunger : strangle d) laughter : appease(শান্ত বা প্রশমিত করা)"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

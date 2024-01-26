@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".English_Grammar_Gerund"
+    android:background="@color/main_bg_color"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="17dp"
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary_color"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="Gerund Vs Present Participle"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="Present participle এবং gerund অনেক confusion বা বিভ্রান্তি তৈরি করে। উভয়ের চেহারা পুরোপুরি একই রকম (twin baby-র মত) হওয়াতে এই সমস্যাটি হয়। তারা দেখতে একই রকম হলেও তাদের কাজ কিন্তু সম্পূর্ণ আলাদা। gerund যা করে present participle তা করে না আবার present participle যা করে তা gerund করে না।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                android:justificationMode="inter_word"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="Present participle এবং gerund এর চেহারা কেমন হয়? \nverb এর সাথে suffix হিসেবে ing যোগ করলে যা হয় তা ই হল present participle এবং gerund অর্থাৎ তাদের উভয়েরই উতপত্তি হচ্ছে verb থেকে। Example: running, swimming, walking, doing, going, etc."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="Gerund: \nGerund সবসময় noun হিসেবে বসে। যে জায়গাগুলোতে noun বসে, gerund ও সেই একই জায়গাতে বসে। আসুন এক পলকে দেখে নেই gerund কোথায় এবং কিভাবে বসে। \n1. gerund as the subject of a sentence (কোন sentence এর subject হিসেবে)-"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                android:justificationMode="inter_word"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="Examples: \nCamping is fun in summer. \nHiking can be a relaxing and rewarding activity. \nDriving too fast is dangerous. \nWalking is good for you. \nYour knitting is beautiful."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="2.Gerund as the object of a verb (কোন verb এর object হিসেবে)-"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                android:justificationMode="inter_word"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="Examples: \nI like cooking. \nHe enjoys walking. \nThey hate milking cows. \nI can imagine drifting away in a balloon. \nJill suggested going for a drink."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="3. Gerund as the subject complement- \n(Note: subject complement এর কাজ হলো verb-এর পরে বসে subject এর সম্পর্কে extra তথ্য দিয়ে sentence এর অর্থকে পরিপূর্ণ করা।)"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                android:justificationMode="inter_word"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="Examples: \nMy hobby is swimming. \nWhat I really like is travelling to other countries."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="4. gerund after prepositions-"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                android:justificationMode="inter_word"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="Examples: \nWe were tired of walking. \nHe rushed out of the room without saying a word. \nCould you give up smoking? \nCan you sneeze without opening your mouth? \nShe is good at painting. \nI was the fastest at climbing the rope. \nHe learns music by listening to the chords."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="5.gerund in compound nouns-"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                android:justificationMode="inter_word"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="Examples: \nI took her to her driving lessons. \nWe are going to the swimming pool. \nMy uncle does a lot of bird-watching. \nI found this pie by dumpster-diving. \nWe had no drinking water left."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary_color"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="Present Participle"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="Present Participle নিচের কাজগুলো (functions) করে থাকে: \n1. present participles as part of the continuous form of a verb- \nদুনিয়াতে যত ধরনের continuous tense আছে তার সবগুলোতেই present participle ব্যবহৃত হয়। tense নির্ধারণের জন্য helping verb বসে এবং present participle সবসময় একই রকম থাকে অর্থাৎ সে তার চেহারা বদলায় না।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                android:justificationMode="inter_word"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="Examples: \nMunni is painting. \nNadira was waiting. \nMuntaha will be coming. \nThey would be staying. \nShe would have been leaving. \nI wasn’t listening. \nWhat have you been doing? \nYou must be joking. \nI happened to be passing your house."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="2. Present Participles as adjectives-"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                android:justificationMode="inter_word"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="Examples: \nDid you read that amazing book? \nThis movie is so exciting! \nThe survey revealed some worrying results. \nThe results of the survey seemed worrying. \nThe rising sun looks splendid. \nThe children gazed at the laughing clown."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="3. present participle after verbs of movement &amp; position- \n(Note: যে verb দ্বারা কোন কিছুর movement কে বোঝানো হয় সেগুলোকে verbs of movement বলা হয়। আবার যে verb দ্বারা কোন কিছুর position কে বোঝানো হয় সেগুলোকে verbs of position বলা হয়। verbs of movement &amp; position এর পরে present participle বসে। সাধারণত go এর বেলায় এটি বেশি ব্যবহৃত হয়।)"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                android:justificationMode="inter_word"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="Examples: \nMy uncle went shopping. \nThey go running every morning. \nJason lay looking up at the clouds. \nSamira came running towards me."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="4. Present Participles after verbs of perception (verbs of perception+ object এর পরে Present participle ব্যবহৃত হয়)-"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                android:justificationMode="inter_word"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="Examples: \nWe saw him swimming across the pond. \nI watched her painting Sarah’s portrait. \nI couldn’t hear her singing because of the noise. \nI would like to see you knitting sometime."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="5.Present Participle introducing a present participle clause-"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                android:justificationMode="inter_word"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="The man driving the car was not injured. (The man who was driving the car was not injured.) \nTom lost his keys (while) walking through the park. \nOpening the envelope, I found two concert tickets. \nHaving nothing left to do, Paula went home."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

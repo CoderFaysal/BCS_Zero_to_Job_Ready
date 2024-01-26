@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".English_Grammar_Conditional"
+    android:background="@color/main_bg_color"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="17dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary_color"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="Conditional Sentence \n(Part 1- Briefly)"
+                android:layout_marginBottom="5dp"
+                android:justificationMode="inter_word"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="Conditional sentence এর ক্ষেত্রে verb form এর কিছু ব্যতিক্রম ঘটে। এই বাক্যগুলো চিনতে ভুল করলে ঐ verb form টাও সঠিকভাবে ধরা যায় না। মূলতঃ Conditional sentence হল দুটো ঘটনা যাদের মধ্যে একটা আরেকটার শর্ত। যেমনঃ"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="I will go if I have the time."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="এখানে সময় থাকাটা শর্ত, আর যাওয়াটা হল মূল ঘটনা।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="Conditional sentence দু’রকম, real আর unreal।"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary_color"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="Real condition"
+                android:layout_marginBottom="5dp"
+                android:justificationMode="inter_word"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="বক্তা যদি বোঝাতে চায় যে শর্তটি বাস্তব, অর্থাৎ ঘটনাটি ঘটতেও পারে তাহলে সেটি real condition. তিনরকম real condition হতে পারেঃ"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="Future: \nIf+ subject+ present indefinite+ {will can may must} + verb base form \nIf he takes the bribe the police will arrest him.\nHabitual: \nIf+ subject+ present indefinite+ ( ) + present indefinite. \nIf the child finds candy he keeps quiet. \nOptative: \nIf+ subject+ present indefinite+ ( ) + present indefinite \nIf you find him sleeping, wake him up."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary_color"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="Unreal condition"
+                android:layout_marginBottom="5dp"
+                android:justificationMode="inter_word"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="বক্তার কথাতেই যদি বোঝা যায় যে শর্তটি ঘটবার কোন সম্ভাবনা নেই তাহলে বাক্যটি একটি unreal condition। unreal condition দু’রকমঃ \n\nPresent/Future:"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="If + subject + simple past + {would could might} + verb base form \nIf he took the bribe the police would arrest him."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="উপরের real future condition এর সাথে তুলনা করে দেখুন, verb দুটো আলাদা। এর অর্থ হল বক্তার বিশ্বাস এই লোকটি ঘুষ নেবে না । \n\nPast:"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="If + subject + past perfect + ( ) + {would could might} + have + past participle of verb \nIf he had taken the bribe the police would have arrested him."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="অথবা আরেকটি উদাহরণ হতে পারেঃ"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="If he had not taken the bribe the police would not have arrested him."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="যার অর্থ হল লোকটি ইতোমধ্যে ঘুষ নিয়েছে । তাই if  দিয়ে যে শর্তটি দেয়া হয়েছে সেটি অবাস্তব।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary_color"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="Part 2 \nDetails"
+                android:layout_marginBottom="5dp"
+                android:justificationMode="inter_word"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="English Grammar এর সবচেয়ে গুরুত্বপূর্ণ গুলোর মধ্যে একটি হল Conditional sentence। প্রায় সব ধরনের পরীক্ষাতে Conditional sentence থেকে প্রশ্ন আসে। ৩৫ তম বিসিএস পরীক্ষাতেও Conditional sentence থেকে একটি প্রশ্ন এসেছে।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary_color"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="Conditional sentences কি?"
+                android:layout_marginBottom="5dp"
+                android:justificationMode="inter_word"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="Conditional sentences দ্বারা কোন শর্তযুক্ত idea কে প্রকাশ করা হয়। এ ধরনের sentence এ দুটি clause থাকে- if যুক্ত subordinate clause দ্বারা condition বা শর্ত বোঝায় এবং principal clause দ্বারা সেই শর্ত পূরণ হলে কি হবে তা বোঝায়। if যুক্ত clause শুরুতে বা শেষে বসতে পারে। তবে যদি if যুক্ত clause শুরুতে বসে তাহলে তার পরে একটি কমা (,) বসবে, আর যদি শেষে বসে তাহলে কমা বসবে না। \nExamples:"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="If she comes, I will meet her. (এখানে শর্ত হল তাকে আসতে হবে। সে আসলে আমি তার সাথে দেখা করব নাহলে দেখা করব না।) \nI will meet her if she comes. \nYou might have been accepted if you had applied earlier. \nIf you had applied earlier, you might have been accepted."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary_color"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="Zero Conditional:"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="কোন একটি condition এর বেলায় যখন সব সময় একই ফলাফল আসে (universal truth, scientific fact এবং habitual fact এর বেলায়) তখন zero conditional ব্যবহার করা হয়। order বা instruction এর বেলায়ও zero conditional ব্যবহার করা হয়। zero conditional এ if এর পরিবর্তে when ব্যবহার করা যায়। \nধরুন, আপনি একটি পাত্রে এক টুকরা বরফ নিলেন, তারপর ঐ পাত্রটাকে চুলার উপরে রেখে দিলেন। তাহলে কি ঘটবে? সবসময় একটাই ঘটনা ঘটবে- বরফ গলে যাবে যা একটি scientific fact । \n\nExamples:"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="If / When we heat ice, it melts. \nPositive: If/When you heat water to 100 degrees, it boils. \nNegative: If/When you don’t heat water to 100 degrees, it doesn’t boil. \nQuestion: What happens if/when you heat water to 100 degrees?"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="zero conditional এ সাধারণত নিচের structure ব্যবহার করা হয়–"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="When/If/Unless+ present tense, present simple/ imperative. \nIf+ Past tense, past tense"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Examples:"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="If I miss the 8 o’clock bus, I am late for work. \nIf I am late for office, my boss gets angry. \nPeople get hungry if they don’t eat. \nWhen you go on holiday, take plenty of sun cream. It’ll be very hot. \nWhen I’m concentrating, please don’t make so much noise. \nWhen I’ve finished an article, I always ask Kate to read it through. \nIf I got home late, my mom scolded me. \nIf she was sad, she just stared into the distance without saying a word."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Unless: \n‘unless’ এর অর্থ হল if এর একদম উলটা অর্থাৎ ‘if not’."
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="Unless I catch the 8 o’clock bus, I am late for work. \nPeople get hungry unless they eat. \nReal Conditions: First Conditional (usually future time)"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Real conditions হল যা possible বা probable অর্থাৎ যা ঘটা সম্ভব বা যার ঘটার সম্ভাবনা আছে।"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="Structure: If+ Present Simple, will/may/can/must+ verb এর simple form. \nExamples: If you go to bed early tonight, you will feel better."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="এখানে যে শর্ত দেয়া হচ্ছে তা পূরণ করা সম্ভব এবং সেটা পূরণ করলে তার ফলাফল হিসেবে অন্য ঘটনাটিও ঘটার সম্ভাবনা রয়েছে। সুতরাং এটি একটি Real বা বাস্তব condition।"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="If I have the money, I will buy a new bike."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="যদি আমার কাছে টাকা থাকে তাহলে আমি একটি নতুন বাইক কিনতে পারব। টাকা থাকলে এই কাজটিও করা সম্ভব সুতরাং এটিও অবশ্যই real condition."
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="If I don’t study, I won’t understand the things. \nI won’t understand the things if I don’t study. \nWhat time will you arrive if the train is late?"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="সাধারণত first conditional দ্বারা কোন একটি probable future situation এর কথা বলা হয়-"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="If you don’t leave soon, you will miss the train. \nIf you ask her, she will probably help you."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="তবে first conditional দ্বারা কোন একটি probable present situation এর কথাও বলা যায়-"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="If Hussain is hungry, he’ll find some sandwiches in the fridge."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Zero Conditional Vs First Conditionals"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="If I drink too much, I usually get a hangover the following day. (এখানে zero conditional দ্বারা general situation এর কথা বলা হচ্ছে অর্থাৎ if এর clause এর কাজটি যখনই করা হয় তখন সবসময়ই অন্য ঘটনাটিও ঘটে) \nIf I drink too much, I will get a hangover tomorrow. (এখানে first conditional দ্বারা শুধুমাত্র একটি specific future situation এর কথা বলা হচ্ছে)"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary_color"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="Unreal Conditions: Second Conditional \n(usually present/ future time)"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Unreal conditions হল যা impossible বা improbable অর্থাৎ যা ঘটা সম্ভব নয় বা যার ঘটার সম্ভাবনা নেই।"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="Structure: If+ Past Simple, would/could/might+ verb এর simple form."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="simple past tense এ be verb এর বেলায় সাধারণত were বসে, was বসে না।"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="Examples: If you went to bed early tonight, you would feel better."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="এখানে যে শর্ত দেয়া হচ্ছে তা পূরণ করা সম্ভব নয় এবং সেটা পূরণ করতে পারলে তার ফলাফল হিসেবে অন্য ঘটনাটিও ঘটত। সুতরাং এটি একটি unreal বা অবাস্তব condition।"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="If I had the money, I would buy a new bike."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="যদি আমার কাছে টাকা থাকত তাহলে আমি একটি নতুন বাইক কিনতাম।কিন্তু যেহেতু টাকা নেই তাই আমি কিনতে পারছি না। সুতরাং এটিও অবশ্যই unreal condition."
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="If I didn’t study, I wouldn’t understand the things. \nI wouldn’t understand the things if I didn’t study. \nIf I lived by the sea, I could be lying on the beach right now. \nIf he were taller, he might make a good basketball player. \nIf I were you, I would stop smoking."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="সাধারণত second conditional দ্বারা কোন একটি improbable future situation (unlikely to happen) এর কথাও বলা হয়-"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="If the Third World War broke out, it would probably mean the end of humankind. \nIf I missed the 8 o’clock bus, I couldn’t get here before 10. \nIf he lost his present job, he would be in serious trouble. \nUnreal Conditions: Third Conditional (usually past time) \nStructure: If+ past perfect tense, would/could/might+ have+ verb এর past participle. \nExamples: If you had gone to bed early last night, you would have felt better."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="এখানে যে শর্ত দেয়া হচ্ছে তা অতীতে পূরণ করা সম্ভব ছিল না/ হয়নি এবং সেটা পূরণ করতে না পারার কারণে তার ফলাফল হিসেবে অন্য ঘটনাটিও ঘটেনি। সুতরাং এটিও একটি unreal বা অবাস্তব condition।"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="If the driver had fastened his seat belt, he would probably have survived the accident."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="যদি ড্রাইভার তার সিটবেল্ট বাঁধত, তাহলে সম্ভবত সে দুর্ঘটনা থেকে বেঁচে যেত। তার মানে হল, সে সিটবেল্ট বাঁধেনি এবং ফলে দুর্ঘটনা থেকে বাঁচতে পারেনি।"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="If I had had the money, I would have bought a new bike."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="এখানে খেয়াল করুন, প্রথম ‘had’ হল past perfect tense এর auxiliary verb এবং দ্বিতীয় ‘had’ টি হল মূল verb ‘have’ এর past participle form. \nযদি আমার কাছে টাকা থাকত (অতীতের কোন এক সময়ের কথা বলা হচ্ছে) তাহলে আমি একটি নতুন বাইক কিনতাম।কিন্তু যেহেতু টাকা ছিল না, তাই আমি কিনতে পারিনি। সুতরাং এটিও অবশ্যই unreal condition."
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="If I hadn’t studied, I wouldn’t have understood the things. \nI wouldn’t have understood the things I hadn’t studied. \nIf he had been taller, he might have made a good basketball player. \nIf I had been you, I would have stopped smoking. \nIf I had missed the 8 o’clock bus, I couldn’t have got there before 10. \nIf he had lost his job, he would have been in serious trouble."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

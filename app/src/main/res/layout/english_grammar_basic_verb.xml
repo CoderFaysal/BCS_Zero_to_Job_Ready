@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".English_Grammar_Basic_Verb"
+    android:background="@color/main_bg_color"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="17dp"
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary_color"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="Basic verb Form -"
+                android:layout_marginBottom="5dp"
+                android:justificationMode="inter_word"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="Verb form নির্ধারণ করতে তিনটা জিনিস লাগে। Sentence এর tense এবং subject এর number ও person ।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="Tense এর মৌলিক নিয়মগুলো আমরা এখানে দেখবো। তারপর দেখবো number, তারপর person।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary_color"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="Present Tense :"
+                android:layout_marginBottom="5dp"
+                android:justificationMode="inter_word"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="1. present indefinite: এটা দিয়ে সাধারণ বক্তব্য বা দৈনন্দিন ঘটনা বোঝায়। জিনিসটাকে indefinite বলা হচ্ছে কারণ আপনি বলতে পারবেননা ঘটনাটা এই মূহুর্তে ঘটছে কিনা।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="Apon walks to school everyday. He is a good boy."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="2. Present continuous: এটা দিয়ে বোঝানো যায়:"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="১। ঘটমান কিছু: I am having lunch. \n২। ভবিষ্যৎ ঘটনা: I am going to New York."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="3. Present perfect: প্রথমত, ঘটনা ঘটে গেছে বলতে হলে present perfect ব্যবহার করতে হবে।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="I have come from Dubai."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="আরেকটা প্রয়োগ হল একটা কাজ শুরু হয়েছে শেষ হয়নি এরকম কিছু বোঝাতে। সাধারণত এক্ষেত্রে সময়ের একটা উল্লেখ থাকে এবং তার সাথে দু’টো conjunction ব্যবহার করা হয়, for এবং since। যেমনঃ"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="I have lived in this house for five years."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="প্রশ্নটা হল, তাহলে simple past এর সাথে এর তফাতটা কোথায়?"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary_color"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="Past Tense :"
+                android:layout_marginBottom="5dp"
+                android:justificationMode="inter_word"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="1. simple past: সুনির্দিষ্ট অতীতে কিছু একটা ঘটে গেছে বোঝাতে simple past ব্যবহার করা হয়।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="I came home yesterday from Dubai. \nতাহলে present perfect এর সাথে simple past এর পার্থক্য হল সময়ের উল্লেখ থাকা।"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="2. Past continuous: সুনির্দিষ্ট অতীতে কিছু একটা ঘটছিল বোঝাতে Past continuous ব্যবহার করা হয়।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="এক্ষেত্রে সাধারণত যা দেখা যায় তা হল অতীতের দুটো ঘটনাকে পাশাপাশি রেখে তুলনা করা হয়। \nI was walking home last night when I saw the robbery take place. \nএই তুলনা করতে দু’টো conjunction ব্যবহার করা হয়, when এবং while। দু’টো conjunction এর ব্যবহার দু’রকম।"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="3. Past Perfect:"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary_color"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="Number of a Subject"
+                android:layout_marginBottom="5dp"
+                android:justificationMode="inter_word"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="subject এর সংখ্যা বা number এর সাথে সাথে verb এরও চেহারা বদলে যায়। verb গুলো কিভাবে singular থেকে plural হয় সেটা এখানে (link to: Regular and Irregular Verbs) দেখে নিতে পারেন।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="subject এর সাথে verb কিভাবে পরিবর্তন হয় তার নিয়মগুলো নিচে দেয়া হল:"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="১। uncountable noun এর পরে singular verb বসে।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="Milk is a healthy food."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="২। Subject 1 rule:"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="একাধিক subject যখন নিচের শব্দগুলো দিয়ে যুক্ত হয় তখন প্রথম subject এর সাথে মিল রেখে verb এর form ঠিক হয়। \ntogether with \nalong with \nand not accompanied by \nas well as \namong with \naccompanied with \nin addition to \nJohn, along with his friends, is going to the movies."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="৩। Subject 2 rule:"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="যখন 'either...or' এবং 'neither...nor' দিয়ে দুটি subject সংযুক্ত হলে দ্বিতীয় subject টির সাথে মিলিয়ে verb এর form ঠিক হয়। \nEither me or they will have to leave this building. \nNeither they nor I am leaving the building."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="৪। And rule:"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="and দিয়ে একাধিক subject যুক্ত হলে সবসময় verb টি plural হবে। \nLuna, Nishi and I are chatting."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="৫। each, every, either, neither, many a – এগুলো subject এর আগে থাকলে singular verb হয়।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="৬। both, few, many, others, several এগুলো subject এর আগে থাকলে কিংবা নিজেরাই subject হলে সবসময় plural verb হয়।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="৭। Infinitive (link to: Infinitive) এবং Gerund (link to: Gerund) এর পরে সবসময় singular verb হয়।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="Swimming is my favourite exercise. \nTo err is man."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="৮। Here এবং there এদুটি শব্দের পর যদি be verb এবং তারপর noun থাকে তাহলে ঐ noun অনুযায়ী be verb এবং পরবর্তী verb টির form ঠিক হয়।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="There is a man in our village who makes ploughs. \nHere are some fruits for you to eat."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="৯। সময়, দূরত্ব, ওজন আর টাকার যেকোন পরিমাণ subject এ থাকলে সবসময় singular verbহবে।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="Three hours is a long time to wait. \nDon't you think sixty dollars for a small cake is too expensive?"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="১০। কিছু noun সবসময় plural, তাদের সাথে অবশ্যই সবসময় plural verb হবে। (এদের একটা তালিকার জন্য দেখুন: Noun অধ্যায়ের SINGULAR AND PLURAL NOUNS অংশে)।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="(Insert Important symbol) আবার কিছু noun এর singular এবং plural form একইরকম দেখতে (একই জায়গায় এদেরও একটা তালিকা পাবেন)। তাহলে verb singular না plural হবে তা বুঝবেন কি করে? \nব্যাপারটা আসলে বেশ সহজ। noun গুলো যেহেতু countable অতএব অবশ্যই তারা singular হলে তাদের আগে article (a, an, the) বসবে। কখনো কখনো অন্য determiners ও বসতে পারে।"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

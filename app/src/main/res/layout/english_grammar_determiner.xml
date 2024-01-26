@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".English_Grammar_Determiner"
+    android:background="@color/main_bg_color"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="17dp"
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary_color"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="The Determiners"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="বাক্যে countable noun ব্যবহার হলেই তার সামনে একটা শব্দ বসে যে শব্দটা ঐ noun এর সংখ্যা নির্দেশ করে। noun টা singular হলে সাধারণতঃ বসে a, an অথবা the। \n\nএ কথাটা মনে রাখা জরুরি যে countable noun থাকলেই সংখ্যাবাচক শব্দ থাকবে,কারণ এটার উপর ভিত্তি করে পরীক্ষায় অনেক প্রশ্ন আসে। এই প্রশ্নটা দেখুনঃ"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="I will return to you ______. (DU D-Unit 2010-11) \n01. Within quarter of hour \n02. Within the quarter of hour \n03. Within a quarter of an hour \n04. Within quarter of the hour \nএই প্রশ্নের উত্তর হল - 03"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="আবার uncountable noun হলেও সেটার সামনে পরিমাণ (কম, বেশি) বোঝাতে শব্দ বসতে পারে । এসব শব্দ মিলেই determiners । এ শব্দগুলো মূলতঃ একধরণের adjective ।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary_color"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="THE"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="The শব্দটি determiner গুলোর মধ্যে সবচেয়ে গুরুত্বপূর্ণ। এই শব্দটি proper noun এর সাথেও যুক্ত হয়। এ সংক্রান্ত কিছু নিয়ম নিচে দেয়া হলঃ \n\nসাগর, নদী, পাহাড়ের নামঃ"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="The Pacific, The Ganges, The Himalayas"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="ব্যতিক্রম: লেকের নামঃ"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="Kaptai Lake"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="স্কুল,কলেজ,বিশ্ববিদ্যালয় যখন of দিয়ে হয়ঃ"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="The University of Dhaka"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="ব্যতিক্রম: যখন নিজস্ব নাম দিয়ে শুরু হয়ঃ"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="North south University"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="দেশের নামের ক্ষেত্রে শুধু যেগুলো united দিয়ে শুরু বা  republic আছে সেগুলোর আগে the বসবে।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="The United States of America, the Czech Republic. আবার the democratic republic of Bangladesh ঠিক কিন্তু the Bangladesh ভুল।"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary_color"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="A এবং AN"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="একটা বাক্যে প্রথম বারের মত কিছু বা কাউকে উল্লেখ করা হলে (noun) তার আগে a অথবা an বসে। দু'টো শব্দেরই অর্থ একটি (one)।\nঅ, আ, অ্যা, ই, এ, ও – এগুলো ধ্বনি দিযে যেসব শব্দ শুরু হয তাদের আগে an বসে।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="An orphan (অরফান)\nAn umbrella (আমব্রেলা)\nAn hour (আওযার)\nAn apple (অ্যাপল)\nAn insult (ইনসাল্ট)\nAn ape (এপ)\nAn oar (ওর)"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="লক্ষ্যণীয় যে H দিয়ে শুরু কিছু শব্দে H উচ্চারিত হয়না। যেমন:"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="hour, heir, herbal, honour, honest"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="এগুলোর আগেও an বসবে। \nসকল consonant এবং 'ইউ' এবং 'ওয়া' ধ্বনি দিযে যেসব শব্দ শুরু তাদের আগে a বসে।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="A house \nA boy \nA chicken"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="'ইউ' ধ্বনি দিযে শুরু শব্দ:"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="European, eulogy, euphemism, eucalyptus, ewe, uniform, university, universal, union, unicorn, useful + noun"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="'ওয়া' ধ্বনি দিযে শুরু শব্দ:"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="One (শব্দটা নিজে noun না হলেও countable noun এর অংশ হিসেবে ব্যবহৃত হতে পারে, যেমন: one-taka note)"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary_color"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="OTHER"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="এ শব্দটি বিভিন্ন রূপে অনেকটা the এবং a এর মত ব্যবহৃত হয়।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary_color"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="SOME, ANY"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="কিছু, কয়েকজন, কয়েকটা - এরকম বোঝাতে countable noun -এর আগে এই দু'টি শব্দ ব্যবহার হয়। Some ব্যবহার হয় হ্যাঁ-বাচক অর্থে আর না-বাচক এবং প্রশ্নবাচক অর্থে Any ব্যবহৃত হয়। যেমনঃ"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="Do you have any eggs? \nAns: Yes, I have some eggs in the fridge. / No, I don't have any eggs."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary_color"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="MUCH, MANY, A LOT OF, PLENTY"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="চারটা শব্দের অর্থই অনেক। এদের মধ্যে much uncountable noun এর সামনে বসে।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="The jug does not have much water. \nMany flowers have bloomed. \nA lot of boys are wearing these pants now-a-days. \nI have plenty of shirts."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary_color"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="FEW, A FEW, LITTLE, A LITTLE"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="এই চারটা শব্দের অর্থ হল অল্প, সামান্য । few এবং a few বসে countable noun এর সামনে আর little এবং a little বসে uncountable noun এর সামনে।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="Few men are capable of going through this pain. \nA few bad apples may spoil the bunch."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary_color"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="ONE, NO"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="one যখন একটি অর্থে ব্যবহৃত হয় এবং no যখন কোনটাই নয় এই অর্থে ব্যবহৃত হয় তখন এগুলো determiner। দুটি শব্দই singular countable noun এর আগে বসবে।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="I met one Fred Miller in New York. \nNo boy in the class would volunteer for the work."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="SOME MORE, A FEW MORE, A LITTLE MORE, MUCH MORE, MANY MORE"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

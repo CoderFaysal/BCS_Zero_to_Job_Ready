@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".English_Grammar_Adjective"
+    android:background="@color/main_bg_color"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="17dp"
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary_color"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="Adjective খুব একটা গুরুত্বপূর্ণ টপিক নয়। এখান থেকে দু’রকমের প্রশ্ন আসে :"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="No - 01"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="form এবং position এর প্রশ্ন। adjective দুইটা জায়গায় বসে। noun এর আগে এবং sentence এ object এর জায়গায়, অর্থাৎ verb এর পর। একইসাথে adjective এর noun অথবা adverb form টা ব্যবহার করে পরীক্ষার্থীকে ধাঁধায় ফেলার চেষ্টা করা হয়।"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="Position ও Form এর উদাহরণঃ"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="The president said that the _ situation was very serious. (D Unit 2004-05) \nEconomical \nEconomy \nEconomic \nEconomics \nএটা একটা জনপ্রিয় প্রশ্ন, কারণ economy - এই noun টার দুইটা adjective হয়, Economical এবং Economic। একটার অর্থ মিতব্যয়ী আর আরেকটার অর্থ অর্থনৈতিক।"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="ইংরেজিতে adjective ব্যবহারের একটা ক্রম আছে। মোটামুটি ভাবে ক্রমটা এইরকমঃ"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="Opinion or judgement = beautiful, ugly, easy, fast, interesting \nDimension = small, tall, short, big \nAge = young, old, new, historic, ancient \nShape = round, square, rectangular \nColour = red, black, green, purple \nOrigin = French, Asian, American, Canadian, Japanese \nMaterial = wooden, metallic, plastic, glass, paper \nPurpose or Qualifier = foldout sofa, fishing boat, racing car"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="উদাহরণঃ"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="The 'beautiful long curved old red Italian steel racing car'"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

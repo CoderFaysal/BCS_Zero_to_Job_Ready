@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".English_Grammar_Agreement"
+    android:background="@color/main_bg_color"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="17dp"
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary_color"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="Subject Verb Agreement-"
+                android:layout_marginBottom="5dp"
+                android:justificationMode="inter_word"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="বাক্যে subject যদি 3rd person হয় তাহলে verb-এরসাথে s বা es যোগ করতে হয়। এটাই হল subject verb agreement-এর মুল নিয়ম। কিন্তু পরীক্ষায় subject এবং verb এমন ভাবে দেয়া থাকে যে বুঝতে খুব অসুবিধা হয়।"
+                android:layout_marginBottom="5dp"
+                android:justificationMode="inter_word"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="যেমনঃ His grasp of many areas of radio and television technology makes/make it easy for him to find a job. এই বাক্যে verb খুব সহজে বোঝা গেলেও subject বের করতে বেশ সমস্যা হয়। এই বাক্যে subject হল his grasp একটি singular subject তাই verb হবে makes. এখানে subject এবং verbএর মধ্যে একটি prepositional phrase (of many areas in radio and television technology) আছে তাই subject বুঝতে সমস্যা হয়।"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                android:justificationMode="inter_word"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="নিচে Subject Verb Agreement এর কিছু নিয়ম দেয়া হলোঃ"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="01. Subject এবং verb এর মাঝে prepositional phrase আসলে তা verb-এর ওপর কোন প্রভাব ফেলে না।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="Prepositional phrase সাধারণত একটি preposition দিয়ে শুরু হয় এবং একটি noun দিয়ে শেষ হয়। ওপরের বাক্যে at=preposition এবং technology= noun."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="02. Either….or, neither….nor, not only….but also ইত্যাদি থাকলে সবচেয়ে কাছের subject অনুযায়ী verb হবে।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="যেমনঃ neither john nor his brothers have done this. এখানে verb have হয়েছে কারণ সবচেয়ে কাছের subject-টি (his brothers) plural."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="03. Collective noun এর (army, jury, and committee) পর সাধারণত verb এর main form বসে। যেমন: the jury agrees on the verdict. \nতবে যদি সবাই কোন কাজ একসাথে না করে আলাদা আলাদা ভাবে করে তাহলে verb এর সাথে s বা es যোগ করতে হবে না।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="যেমনঃ the jury disagree on the verdict. এখানে disagree করার কারণে দলটি দুই ভাগে ভাগ হয়ে গিয়েছে। তাই এখানে verb-এর সাথে s বা es যোগ হয় নি।"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="04. ics দিয়ে শেষ হয় এমন শব্দ গুলো যদি কোন বিষয় এর নাম বোঝায় তাহলে তার পর verb এর singular form হয়।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="যেমনঃ economics is my favorite subject."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="05. The number এর পর singular verb হয় এবং a number এর পর plural verb হয়।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="যেমনঃ a number of students fail every year. \nThe number of students who pass is increasing."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="06. Each, every, somebody, everybody, anybody, nobody এই pronoun গুলোর পর singular verb হয়।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="যেমনঃ everybody wants to study in Dhaka university."
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="07. কখনো কখনো Subject এবং verb এর মাঝে Along with…., together with……. আসতে পারে। কিন্তু verb subject এর person অনুযায়ী হবে।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="যেমনঃ john along with his friends is going to the cinema. এখানে verb এর আগে plural noun থাকলেও subject (john) অনুযায়ী singular verb হয়েছে।"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

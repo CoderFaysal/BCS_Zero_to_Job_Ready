@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".English_Grammar_Compound_Word"
+    android:background="@color/main_bg_color"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="17dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="অতি প্রয়োজনীয় কিছু English Compound Word বাংলা অর্থ সহ দেয়া হল, যা academic এবং practical life এ বহুলভাবে ব্যবহৃত হয়ে থাকে।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                android:justificationMode="inter_word"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="Accelerate development = উন্নয়নকে ত্বরান্বিত করা \nAdulterated food ↠ ভেজাল খাদ্য \nBizarre comment ↠ উদ্ভট মন্তব্য \nCome to consensus ↠ ঐক্যমত্যে পৌছা \nCommit suicide = আত্মহত্যা করা \nCommon interest = অভিন্ন স্বার্থ \nCommunal harmony = সাম্প্রদায়িক সম্প্রীতি \nCongenial atmosphere ↠ সুষ্ঠু পরিবেশ \nConjugal life = দাম্পত্য জীবন \nControversial discussion ↠ বিতর্কিত আলোচনা \nCut-throat competition = নিষ্ঠুর প্রতিযোগীতা \nDeep conspiracy ↠ গভীর ষড়যন্ত্র \nDeparted soul = বিদেহী আত্মা \nDevastating flood ↠ প্রলয়ংকারী বন্যা \nDistribution of aid = ত্রাণ বিতরণ \nEco-Friendly = পরিবেশ সহায়ক \nEconomic diplomacy ↠ অর্থনৈতিক কুটনীতি \nEmphatic victory ↠ ব্যাপক বিজয় \nFabricated information ↠ বানোয়াট বা মনগড়া তথ্য \nFierce clash ↠ ভয়াবহ সংঘর্ষ \nFormal inauguration = আনুষ্ঠানিক উদ্বোধন \nHeartiest felicitation ↠ আন্তরিক শুভেচ্ছা \nIn a message of condolence ↠ এক শোক বার্তায় \nIndecent gesture = অশ্লীল অঙ্গভঙ্গি \nInquisitive mind = কৌতূহলী মন \nLash of criticism ↠ সমালোচনার কষাঘাত \nMilitary superpower = সামরিক পরাশক্তি \nMuch talked agenda ↠ বহু আলোচিত বিষয় \nParental property = সম্পত্তি \nPopulation explosion ↠ জনসংখ্যা বিস্ফোরন \nPragmatic step ↠ বাস্তব পদক্ষেপ \nReligious festival = ধর্মীয় উৎসব \nRescue operation = উদ্ধার অভিযান \nSay prayer = নামাজ পড়া \nSound sleep = ভাল ঘুম \nStructural criticism = গঠনমূলক সমালোচনা \nSuffocating environment ↠ শ্বাসরুদ্ধকর পরিবেশ \nWhimsical decision = খামখেয়ালীপূর্ণ সিদ্ধান্ত"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

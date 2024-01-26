@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".English_Grammar_Adverb"
+    android:background="@color/main_bg_color"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="17dp"
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary_color"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="Adverb এর সবচেয়ে সহজ সংজ্ঞা হল Verb কে প্রশ্ন করলে যে উত্তর পাওয়া যায়। Verb কখন, কোথায়, কিভাবে, কতটুকু হচ্ছে এটা যে Word বা একাধিক Word এ বোঝা যাবে সেটাই Adverb।"
+                android:layout_marginBottom="5dp"
+                android:justificationMode="inter_word"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="Adverb এর যে বিষয় দু’টো বেশি গুরুত্বপূর্ণ সেগুলো হল adjective এর আগে বসানো Adverb এবং adverbial phrase. যেমনঃ "
+                android:layout_marginBottom="5dp"
+                android:justificationMode="inter_word"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="ঢাকা বিশ্ববিদ্যালয়ের শিক্ষকদের প্রিয় একটা form হল too + adjective + infinitive. \nHe is too weak to walk. এই too হল সবচেয়ে বেশি ব্যবহৃত Adverb।"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                android:justificationMode="inter_word"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="01. Adverbs of Frequency :"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="once/twice/thrice – সংখ্যাসূচক, একবার, দুইবার, তিনবার \nseldom – মাঝে মাঝে, \noften – প্রায়ই, \nfrequently - প্রায়শই, \nagain - আবার, \nalways – সবসময়ই"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="02. Adverbs of time :"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="before - আগে, \nafter - পরে, \nnow - এখন, \nago - আগে, \nsoon - তাড়াতাড়ি, \nlate - দেরি, \nlately - ইদানীং, \ndaily - দৈনিক, \nalready - ইতিমধ্যেই, \nnever - কখনও, \nsince - যেহেতু"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="03. Adverbs of place :"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="Here - এখানে, \nthere- সেখানে, \neverywhere - সবখানে, \nup - উপরে, \nout - বাইরে, \nwithin ভিতরে, \nin - ভিতরে, \naway - দূরে, \nbackward - পেছনে"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="04. Adverbs of manner :"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="05. Adverbs of affirmation and negation :"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BCSMarksDistribution"
+    android:padding="10dp"
+    android:background="@color/main_bg_color"
+    >
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/marksTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="8dp"
+        android:background="#ffffff"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:weightSum="10"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SL"
+                android:textSize="18sp"
+                android:textColor="@color/primary_color"
+                android:textStyle="bold"
+                android:layout_weight="4"
+                android:background="@drawable/border_shape"
+                android:layout_marginRight="10dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/bangla_font"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Subject Name"
+                android:textSize="18sp"
+                android:textColor="@color/primary_color"
+                android:textStyle="bold"
+                android:layout_weight="2"
+                android:background="@drawable/border_shape"
+                android:layout_marginRight="5dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/bangla_font"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Marks"
+                android:textSize="18sp"
+                android:textColor="@color/primary_color"
+                android:textStyle="bold"
+                android:layout_weight="4"
+                android:layout_marginLeft="5dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/bangla_font"
+                />
+
+        </LinearLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@id/marksTop"
+        >
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            android:divider="@null"
+            android:listSelector="@android:color/transparent"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

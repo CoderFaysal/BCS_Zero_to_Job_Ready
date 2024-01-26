@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".English_Grammar_Noun"
+    android:background="@color/main_bg_color"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="17dp"
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="Noun (বিশেষ্য) হলো নাম। যেকোন জিনিসের নাম। এটা আমরা সবাই জানি। ব্যবহারিক প্রয়োগের জন্য মূলতঃ nounর যে বিষয়টি আপনাকে জানতে হবে তা হলো সেই জিনিসটা গোনা যায় কি যায় না (countable or uncountable) । এর উপর ভিত্তি করে দু’টো ঘটনা ঘটে।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="১. Noun টা singular হবে না plural হবে সেটা ঠিক করা হয়। \n২. Noun এর সামনে কোন Articleটা (a, an, the) অথবা কোন determiner বসবে এটা ঠিক করা হয়।"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="কোন noun টা countable হবে আর কোনটা uncountable, এ সম্পর্কিত কতগুলা নিয়ম আমরা ছোটবেলা থেকেই পড়ে আসছি। সেগুলো হলোঃ"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="১। যেগুলো গোনা যায় সেগুলো যেমন কোন বস্তু, ব্যক্তি বা প্রাণী countable। \n২। কিছু বস্তু গোনা যায়না, যেমন পানি, চাল, আকাশ। এগুলো uncountable। মনে রাখতে হবে : \nuncountable বস্তুগুলোর কিন্তু পাত্রটা সবসময় countable, যেমন two glasses of water, four bags of rice। \nআবার uncountable গুলোর যেকোন আলাদা অবস্থা বুঝালেও countable হয়ে যেতে পারে, যেমন a cloudy sky, a strong wind। \nলক্ষ্য রাখতে হবে article কার জন্য বসছে। an economics student এর an কিন্তু student এর জন্য, economics এর জন্য নয়।"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary_color"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="SINGULAR AND PLURAL NOUNS"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="Countable noun এর দুইটি রুপ হয়, একটা singular, যা দিয়ে একটি জিনিস বোঝায়, আর plural, যা দিয়ে একের বেশি জিনিস বোঝায়। অধিকাংশ পরিচিত countable noun কিছু নির্দিষ্ট নিয়ম অনুসরণ করে singular  থেকে plural করা যায়। সাধারণ পদ্ধতিটা হল noun-এর singular রুপটার পেছনে একটা s বসিয়ে দিলেই সেটা plural হয়ে যায়। যেমন :"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="book-books \ncat-cats \npen-pens \nchair-chairs \ngirl-girls \nball-balls"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="তবে কিছু ক্ষেত্রে নির্দিষ্ট নিয়ম অনুসরণ করে singular থেকে plural করা হয় : \n১। শুধু s যোগ হয়ঃ \nNoun -এর শেষে y এবং তার আগের অক্ষরটি vowel হলে।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="Boy-boys \nday-days \nmonkey-monkeys \nNoun-এর শেষে o থাকলে এবং তার আগে তার আগের অক্ষরটি vowel হলে। \nRadio-radios \nbamboo-bamboos"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="২। es  যোগ হয়ঃ \nnoun-এর শেষে s, sh, ch, x ও z থাকলে।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="glass-glasses \nbush-bushes \nbranch-branches \nfox-foxes \nnoun -এর শেষে o এবং তার আগের অক্ষরটি consonant হলে। \nmango-mangoes \nbuffalo-buffaloes \nhero-heroes \nnoun -এর শেষে y এবং তার আগের অক্ষরটি consonant হলে y বের করে দিয়ে es  যোগ হয়। \nLady-ladies \nstory-stories \nfamily-families"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="৩। noun-এর শেষে f অথবা fe থাকলে সেগুলো ফেলে দিয়ে ves যোগ হয়।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="Leaf-leaves \nknife-knives"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="৪। কিছু noun এর singular আর plural একই। এদের একটা তালিকা নিচে রয়েছে, পড়ে দেখুন অপরিচিত কোন noun আছে কিনা।"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="sheep, deer, salmon, aircraft, pair, dozen, gross, series, species, hundred, thousand"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="৫। কিছু শুধু plural হয়, যেমন:"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="scissors, glasses, spectacles, trousers, drawers, jeans, pajamas, thanks, proceeds, assets, tidings, earnings, dues"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="৬। কিছু noun দেখে plural মনে হলেও আসলে তারা singular। যেমন:"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="mathematics, physics, electronics, measles, mumps, innings, news"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="৭। গ্রীক ভাষা থেকে ইংরেজিতে আসা কিছু noun গ্রীক ভাষার নিয়মেই singular থেকে plural হয়:"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="axis – axes, \ncrisis – crises, \nbasis – bases, \nanalysis – analyses, \nparenthesis – parentheses, \nhypothesis – hypotheses, \nbasis – bases, \nphenomenon – phenomena, \nanalysis – analyses, \ncriterion – criteria"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="৮। আবার লাটিন ভাষা থেকে ইংরেজিতে আসা কিছু noun ও লাটিন ভাষার নিয়মেই singular থেকে plural হয়:"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="index – indices, \nradius – radii, \nformula – formulae, \nmemorandum – memoranda"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_deep"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bangla_font"
+                android:text="তারপরও কিছু noun আছে যেগুলো আমরা দৈনন্দিন ইংরেজিতে ব্যবহার করি এবং সেগুলো singular থেকে plural হতে এসব নিয়মের কোনটাই মানে না। যেমন :"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="Alga  -  Algae \nAlumnus  -  Alumni \nAnalysis  -  Analyses \nAntenna  -  antennas, antennae \nAppendix  -  appendices, appendixes \nAxis  -  Axes \nBacterium  -  Bacteria \nBasis  -  Bases \nBus  -  Buses \nCactus  -  Cactuses \nChild  -  Children \nCrisis  -  Crises \nCriterion  -  Criteria \nCurriculum  -  Curricula \nDatum  -  Data \nDeer  -  Deer \nDie  -  Die \nDiagnosis  -  Diagnoses \nFoot  -  Feet \nFormula  -  Formulas \nFungus  -  Fungi \nGenus  -  Genera \nHippopotamus  -  Hippopotami-hippopotamuses \nHypothesis  -  Hypotheses \nIndex  -  Indices, Indexes \nLouse  -  Lice \nNucleus  -  Nuclei \nPotato  -  Potatoes \nZero  -  Zeros,  Zeroes \nSheep  -  Sheep \nMouse  -  Mice \nOx -  Oxen"
+                android:fontFamily="@font/bangla_font"
+                android:layout_marginBottom="5dp"
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
